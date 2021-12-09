@@ -11,7 +11,7 @@ namespace Observer
         public void Añadir(IObservador observador);
         //Metodo eliminar que permitirá eliminar un observador.
         public void Eliminar(IObservador observador);
-        //Metodo notificar que avisa de los cambios que se hacen.
+        //Metodo notificar que avisa de los cambios que se hacen en el sujeto.
         public void Notificar(); 
     }
 }
